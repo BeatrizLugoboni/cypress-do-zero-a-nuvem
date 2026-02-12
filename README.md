@@ -1,28 +1,27 @@
-# 🌲 Cypress, do Zero à Nuvem ☁️
+# Cypress: do zero á núvem
 
-👋 Seja bem-vindo(a)!
+Projeto de exemplo do curso `Cypress: do zero à núvem`
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai amar esse curso. ❤️
+## Pré-requisitos
 
-## O que você vai aprender?
+É necessário ter git, Node.js e npm instalados para clonar e executar esse projeto. 
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar upload de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
-- Como executar os testes em um _workflow_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como integrar seu _workflow_ de integração contínua com o Cypress Cloud (o serviço de gestão de testes do Cypress na nuvem)
+## Instalação
 
-## Vamos começar?
+Execute `npm install` (ou `npm i`) para instalar as dependências.
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+## Testes
 
-___
+Neste projeto é possivel executar os testes em uma área de visualização de desktop ou de celular
 
-Este é um curso da **Escola Talking About Testing**.
+### Desktop
+
+Execute `npm test` (ou `npm t` ) para executar o teste no modo headless em uma área de visualização de desktop.
+
+Ou, execute `npm run cy:open` para abrir o aplicativo Cypress em uma área de visualização de desktop.
+
+### Mobile
+
+Execute `npm run test: mobile` para executar o teste no modo headless em uma área de visualização mobile.
+
+Ou, execute `npm run cy:open:mobile` para abrir o aplicativo Cypress em uma área de visualização mobile.
